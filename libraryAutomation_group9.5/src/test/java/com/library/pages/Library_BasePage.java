@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Library_BasePage {
 
     public Library_BasePage(){
-        PageFactory.initElements(Driver.getDriver(), this);
+        PageFactory.initElements(Driver.getDriver(), "http://library2.cybertekschool.com/#");
     }
 
     @FindBy(xpath = "//i[@class='fa fa-book']")
@@ -24,5 +24,8 @@ public class Library_BasePage {
     public WebElement Users;
 
     @FindBy(id = "user_avatar")
-    public WebElement userLogout;
+    public WebElement userAvatar;
+
+    @FindBy(xpath = "//a[contains(text(), 'Log Out')]")
+    public WebElement LogOut;
 }

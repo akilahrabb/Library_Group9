@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Library_BasePage {
+public abstract class Library_BasePage {
 
     public Library_BasePage(){
         PageFactory.initElements(Driver.getDriver(), "http://library2.cybertekschool.com/#");

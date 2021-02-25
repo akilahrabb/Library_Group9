@@ -1,12 +1,13 @@
 [
   {
-    "line": 1,
+    "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-02-25T17:03:17.907Z",
+        "start_timestamp": "2021-02-26T01:09:38.650Z",
         "before": [
           {
             "result": {
+              "duration": 16000000,
               "status": "passed"
             },
             "match": {
@@ -14,14 +15,14 @@
             }
           }
         ],
-        "line": 11,
-        "name": "User will login",
+        "line": 16,
+        "name": "User will login as student",
         "description": "",
-        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app;user-will-login;;2",
+        "id": "login;user-will-login-as-student;;2",
         "after": [
           {
             "result": {
-              "duration": 6819000000,
+              "duration": 7727000000,
               "status": "passed"
             },
             "match": {
@@ -34,13 +35,13 @@
         "steps": [
           {
             "result": {
-              "duration": 13535000000,
+              "duration": 11318000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 16000000,
+                  "duration": 2000000,
                   "status": "passed"
                 },
                 "match": {
@@ -48,7 +49,7 @@
                 }
               }
             ],
-            "line": 4,
+            "line": 9,
             "name": "User is on the library login page",
             "match": {
               "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
@@ -56,7 +57,7 @@
             "after": [
               {
                 "result": {
-                  "duration": 2000000,
+                  "duration": 3000000,
                   "status": "passed"
                 },
                 "match": {
@@ -68,7 +69,189 @@
           },
           {
             "result": {
-              "duration": 506000000,
+              "duration": 618000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User enters correct student \"student1Username\" and \"student1Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student1Username\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"student1Password\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User clicks the sign-in button",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1218000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User sees the library homepage",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T01:10:00.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User will login as student",
+        "description": "",
+        "id": "login;user-will-login-as-student;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 6778000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4788000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 3000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User is on the library login page",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 694000000,
               "status": "passed"
             },
             "before": [
@@ -81,20 +264,202 @@
                 }
               }
             ],
-            "line": 5,
-            "name": "User enters correct \"student42@library\" and \"zCm83mcJ\"",
+            "line": 10,
+            "name": "User enters correct student \"student2Username\" and \"student2Password\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\"student42@library\"",
-                  "offset": 20
+                  "val": "\"student2Username\"",
+                  "offset": 28
                 },
                 {
-                  "val": "\"zCm83mcJ\"",
-                  "offset": 44
+                  "val": "\"student2Password\"",
+                  "offset": 51
                 }
               ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_enters_correct_and(java.lang.String,java.lang.String)"
+              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 189000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User clicks the sign-in button",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User sees the library homepage",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T01:10:12.650Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "User will login as student",
+        "description": "",
+        "id": "login;user-will-login-as-student;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 6843000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4844000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "User is on the library login page",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User enters correct student \"student3Username\" and \"student3Password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"student3Username\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"student3Password\"",
+                  "offset": 51
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
             },
             "after": [
               {
@@ -110,13 +475,12 @@
           },
           {
             "result": {
-              "duration": 139000000,
+              "duration": 152000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 2000000,
                   "status": "passed"
                 },
                 "match": {
@@ -124,7 +488,7 @@
                 }
               }
             ],
-            "line": 6,
+            "line": 11,
             "name": "User clicks the sign-in button",
             "match": {
               "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
@@ -132,6 +496,186 @@
             "after": [
               {
                 "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User sees the library homepage",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-26T01:10:25.226Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "User will login as librarian",
+        "description": "",
+        "id": "login;user-will-login-as-librarian;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7410000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5605000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "User is on the library login page",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 696000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "User enters correct librarian \"librarianUsername\" and \"LibrarianPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarianUsername\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"LibrarianPassword\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectLibrarianAnd(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "User clicks the sign-in button",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -157,550 +701,46 @@
                 }
               }
             ],
-            "line": 7,
+            "line": 27,
             "name": "User sees the library homepage",
             "match": {
               "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
             },
             "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-25T17:03:39.192Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
-        ],
-        "line": 12,
-        "name": "User will login",
-        "description": "",
-        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app;user-will-login;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 6056000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6250000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 407000000,
-              "status": "passed"
-            },
-            "before": [
               {
                 "result": {
                   "duration": 2000000,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "User enters correct \"student43@library\" and \"7F1rV4W8\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student43@library\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"7F1rV4W8\"",
-                  "offset": 44
-                }
-              ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_enters_correct_and(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 161000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "User clicks the sign-in button",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "User sees the library homepage",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
                   "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
                 }
               }
             ],
             "keyword": "Then "
           }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-25T17:03:52.106Z",
-        "before": [
-          {
-            "result": {
-              "duration": 16000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
         ],
-        "line": 13,
-        "name": "User will login",
-        "description": "",
-        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app;user-will-login;;4",
-        "after": [
+        "tags": [
           {
-            "result": {
-              "duration": 6207000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5898000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 401000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 2000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "User enters correct \"student44@library\" and \"BIXPElK5\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student44@library\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"BIXPElK5\"",
-                  "offset": 44
-                }
-              ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_enters_correct_and(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 139000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "User clicks the sign-in button",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 12000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "User sees the library homepage",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-25T17:04:04.807Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
-        ],
-        "line": 14,
-        "name": "User will login",
-        "description": "",
-        "id": "as-a-user--i-should-be-able-to-login-to-the-library-app;user-will-login;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 6225000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6113000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 417000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "User enters correct \"librarian54@library\" and \"1HFI6LjC\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"librarian54@library\"",
-                  "offset": 20
-                },
-                {
-                  "val": "\"1HFI6LjC\"",
-                  "offset": 46
-                }
-              ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_enters_correct_and(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 121000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "User clicks the sign-in button",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "User sees the library homepage",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Then "
+            "name": "@login"
           }
         ]
       }
     ],
-    "name": "As a user, I should be able to login to the library app",
-    "description": "",
-    "id": "as-a-user--i-should-be-able-to-login-to-the-library-app",
+    "name": "Login",
+    "description": "  Lib-1000 As a student user, I should be able to see the student landing page\n  Lib-1003 As a librarian user, I should be able to see the librarian landing page",
+    "id": "login",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/login.feature",
-    "tags": []
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

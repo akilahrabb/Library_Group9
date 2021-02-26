@@ -29,7 +29,7 @@ public class bookSearch_stepDefinitions {
 
         }
 
-        //Assert.assertTrue(library_basePage.FirstRowCategory.getText().contains(category.get(i)));
+        //Assert.assertTrue(library_basePage.FirstRowCategory.getText().equals(category.get(i)));
 
     }
 }

@@ -22,23 +22,14 @@ public class bookSearch_stepDefinitions {
         //select dropdown - create an object of Select class
 
         library_basePage.BookCategories.click();
-        int repeat = -1;
-        for (int i = 0; i <= category.size()-1; i++) {
-            repeat += 1;
-            while (repeat <= i) {
-                library_basePage.BookCategories.sendKeys(Keys.ARROW_DOWN);
-                if (i == category.size()-1) {
-                    library_basePage.BookCategories.click();
-                    System.out.println(library_basePage.FirstRowCategory.getText());
-                    //Assert.assertTrue(library_basePage.FirstRowCategory.getText().contains(category.get(i)));
-                    continue;
-                }else if (repeat == i) {
-                    library_basePage.BookCategories.click();
-                    System.out.println(library_basePage.FirstRowCategory.getText());
+        for (String each:category) {
+            library_basePage.BookCategories.sendKeys(Keys.ARROW_DOWN);
+            library_basePage.BookCategories.click();
+            System.out.println(library_basePage.FirstRowCategory.getText());
 
-                    //Assert.assertTrue(library_basePage.FirstRowCategory.getText().toString().contains(category.get(i)));
-                }
-            }
         }
+
+        //Assert.assertTrue(library_basePage.FirstRowCategory.getText().contains(category.get(i)));
+
     }
 }

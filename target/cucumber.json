@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-02-26T01:09:38.650Z",
+        "start_timestamp": "2021-02-26T03:59:46.033Z",
         "before": [
           {
             "result": {
-              "duration": 16000000,
+              "duration": 5000000,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,21 @@
             }
           }
         ],
-        "line": 16,
-        "name": "User will login as student",
+        "line": 4,
+        "name": "Student can search books by category",
         "description": "",
-        "id": "login;user-will-login-as-student;;2",
+        "id": "as-a-student--i-should-be-able-to-search-books-with-different-categories;student-can-search-books-by-category",
         "after": [
           {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAIABJREFUeJzs3X+s3fV93/HX95xzz73Xvjb+Af6FgcD4lQIhTsPSxW3SJG2DWk0smpJUEZXarslElynZoqTTlnSVElVtpqxKm7ZTu2zRQqMl2dZWWxBZFVBIXWlywKVAyo/8AgwGg3/fy/W5957z3R/XgDHG8O61MS6Ph3Rl3+/5ns/52H8+9T6fb/PGN/9kGwAAAAAAXrLO6d4AAAAAAMCZRlgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgqHfKVm6atJ2xDCfXZH7l5iysuiDzZ52X4fJzMhpfkbY3vnjbwiCdwaF0Z57I2IGH09v/YMYO7kx3dm+a0XzStqdsiwAAAAAAfxenJKy2vYkMx1dmYeXmDDZclflVF2Q0uTptt5+26SZNs/iTpO2NZ9jtZzS5KgurL0hn9oqM7X8w44/dld7BnekODqZZOHwqtgkAAAAA8HdycsNq02TUW5bh8nMyWPcjmT1/a0aTq9J2xp4Jqcd7T5qkTTdtt5/R2PIMp9Znbu2lmXxoW8Z3fyfdmSfSWXjK9CoAAAAA8Ipw8sJq06Tt9LOwclNmLnp75tZf9czX/cvrdPsZTq3LzKU/m/mzzsvy79+Ssf0PpRnNiasAAAAAwGl30sLqqLdsMape/DOZO+fytN3+ktdsu/3Mrb8y6fSy/Lv/N72Dj6YzP3MSdgsAAAAALMWWq6/KZZdenPPO3ZTVq1al3x/L3Nx89u3fn4cfeTT33f/d7LjzrtO9zVOmeeObf3LJI6BtbyILU+szfcm1mVt/Zdru+At/9b+8eJtmOEj/8bsz9cDN6U0/7sxVAAAAAOC0WvrEatNkOL4yg3VXLH79v9t/JqoenVZfar193nuaJm13PHPrr8rgwMNp5mfTGw4cCQAAAAAAnDadpS7QdsaysHJzZs/funim6lFRtdO06TZHLr2UENq2aZqk20k6zVGRtWnS9sYze/7WLKzcvPgwLAAAAACA02TJYXU4uSaDDVdlNLnq2YujUTrDw1kx+1h+bM10Ll8+k4tWLOTs8VFW9JOJXpNuk/Q6ybJecla/zfqJYS5eMZ/XLpvOm88+nNXji68fbTS5KoMNV2U4uWap2851v/k/s33b1/OVX9vyzLXrf+9/Z/u2L+TjS14dAAAAAPj7bMlHAcyv3Jz5VRc8O0XajjKan03nqT3pzj6U/tSazDy2P213PJvXrsnE1KocbCeyd9BkrJOc3R9mfPRUZg7sz/79+zI/ms+G8zak37koTZ57TmvbGcv8qgsyv3JzetOPveCePv6lW3PdBQ/mz7f+Yj71AvesGF/qvxwAAAAAeLVaclhdWHVBRhOrF7/v37YZLcxleOiJtHu+n3Z8mH0HDubhR3Zlbn4hjz7cy9jYWM5fvzY/ccl52XtwJn/7nUfz5P5DWVhYyGB+Pv1eL2tXLktWj7I4UHtUXG2ajCZWZ2HVBcmj317Svm/8yD/NjUtaAQAAAAB4tVr6xOpZ56Xt9ZO2TTucz/Dg7gz3PJxmYT6Z7KfpdNPv99NpOhmNFnJgeib3DwYZzg+yb3o2u/dPZzQaZWKsl8n+WDqdY+dUn6vt9TN/1nlL3TYAAAAA8Ar3o1tenx99w+tPeM/td/x1bt/x1y/Tjp619DNWl5+TNk3ahUGG03sy3L8r7WghTaebdHppOt1MTEzkyn+wMVdeuCnnr1udZeNjadtRRqNRpib6uXDDmlx54Yb8yAXr0+sc2dILPOuqbboZLj9nqdsGAAAAAE5gy9VXnfb1b9/x17n9jheOpqcrqiYnYWJ11J9KOxpmNHsww4OPJ6NhmqaTptOk6XTTdLoZDJN7d+7LeK9Jpx2lbZ+dSW3bNjOH53Jg5nAOzy2kaZoXaqqLmiaj8RVL3Xbyb7+Q7T+3Ntt/9x/nV7987Itvyoc+c0Oue8MFWdFPMpzOngf+Xz7/7z+Vr+58+p735A++fkOu2XNTPrxtQz72rjdk02Tyg6+9Le/5zSSX/5N88qO/kK0XrVlcI8mhXXfkz3/nI/nsthdZ4/57cu6lV6T/wFdyzS/+4TF725JPfvk/5tqND+Sr7/tAPr0zAAAAAHDSXXbpxdlx512nff2nw+mxk6unM6omJ2FiddTpZjSYyXB6TzIcLk6qdnuL06rdXtLppjc2lqnlk0nTzd6ZuRyeH+bps1NnBvPZd2g2nU6TFcvG0znROQBJ0jRpe6fyyVP9bPq9j+f6K5N7//Ibufnmb2X7rmTt5e/Ihz/90Ww99vapH8sn3jmeW377fblm65GomuTjv/6hXHtJP0/e/a3cfPM3cuvf7M34xjfk+n/3mVz/Ymv80k3ZvifJRVvyoWPvvfa9uWZzMnfPbaIqAAAAAKfMeeduesWsf+zk6umOqsnJmFg9PJ3RUweSdpSm20vbHEmmnTbp9J756fY6WTM1mdesX5VHnti3GGDT5Jyzluf8c87KwZlBDs4OTjyt+rLYmGvWfSMffuensu2oazf80Rfyy1f8VG74F/8h237/qNvXJvf+5gfz2b84Zpnd9+TG3//gUdOpG/Ohz38h119+ad78vuTGL51ojZvyJ3dcn60/fUmu+Vcbk9/Z9cyt1/30JVmbvdn2fzx6CwAAAIBTZ/WqVa+o9W/fcfpj6tGWPLGap/YladN0ekm39+yfR6ZV03Sz0HayZ2Y+33tiOn/z4J4cPDxcfK3Tyb7pw9nxvV35weN7s+fQUxmNXiSttm2ahcGSt/3C5nLXXxwdVZNkV/7wf+3InvSz6fL3PPf26R/m2197/iqf+vDRUXVxjc9+b1eSqZz9mmNuPs4a2//zjvwgyWVXvyfPtvv35J1Xrkl27sifHOczAQAAAOBk6ffHzuj1T7UlT6x2559K259K2+2lyeIzp5okTadN0+2l6XYzOTGejauX5bG9hzI7HCWdHHm4VTdt00maNhP9XjauWZFdew+d+APbNp3Bi9yzJHvyyM3HuXzznhz8RHLh2guee33/vtxyvGU2b8n1735v3v6GDVm7dmPO7if9yf7xP/J4a+y8Md9+4Gdz4SVb8subk0/tTPJLb8nVU8kPvvn5bK/+swAAAACgYG5u/oxe/1RbcljtDQ5kOL5y8ezTNM/E1WePAuhmvu1kru3kTZedm9nDg3xv197FM1g7vaw9a0UuO3d1Omlz38O707ZtTnTMatMO0515YqnbPoG5DE50dunc9HN/Hw7y6LH3bP1ovvKpn82F/eTQ7gfz5K67s+2H+3Jw05Zc97o1z1/zeGtkVz79zXty3SVX5Jpf2ZL8xo7c8I8uSX/4QL7933Y9fw0AAAAAOIn27d9/Rq9/qi05rI7N7M78ys0ZdseenVhtmjTNKJ1uN/2xsQzTyUN7Z7PzyemMhguZ6CWrpyaSTi97Dk7ntnt2JqNhRsOFTE2MZazXPZJon69ZmMvYgYeXuu0TWJtN703y5WMu/8oFOTfJnsfvf9EVrv/5t+TC/nS2//4H8qtfejaCbvrEl3Ld6wpb+a83Zfu7rsjW1/5crtn8lmy9vO+hVQAAAAC8LB5+5PmjgGfS+qfaks9Y7U8/mu789JGzVceOnK3ay6jpZWYh6XR7Of+cldm0ZkXOPmt5JifH0+/3MzE+nsmJ8UyMj2fF8smsX7sym89ZnQs3rUtvckVmFpLnHbfatukc3pfe/geXuu0TmMrVP3NDLnvOtTfl09dekX725t7bvvGiK7xm1VSSQ9lz29GTpW/Kh6/eWNzLTbn1gb3J5h/Ju//5llzW3ZvtHloFAAAAwMvgvvu/e0avf6otfWJ1+rGMTe/KwvJ1Sbf3zBmro9Ew03PD3P7QwUz1m0z2xzPRH8u6s5Zl2ViTNcvHsmrZeDasWp7p2cOZPTzIaNTmyfl+dh5YlsFkMjxmarUZzWds/4MZO/hSRjZX5KJPfDyfPPbyE3fkE//pphO8bzqDje/Jf/kfV2TbnY9lkKlc9uNvyoVTyaE7vpxPv4SHRn39e7ty3UUb8/Y/+KOs2P5QDh1ZY+Vgb5LjHAVwAn/+33fkl3/sHdn640l2fsNDqwAAAAB4Wey4864zev1TbekPr5rdl4kn783c6ouzMLFq8TiAJmnTZH6UHBgs5MDsfDIappthxrttxrvJyn4nhweDzA7mMhgMMnt4kLY3kd6Gi9IdW5PmOMO0ndn9GX/srnRn976Ena3JVde+I1cde/nBwYuE1T255V9/OSt//b1527VXLF6a3pv7bv5iPvbJPzvOWajPt/03Ppsb134o1119SbZee0kynM4P/vLz+dD0T+XGn6uF1Wz/fLY98I68+5Lk0b/9modWAQAAAMArQPPGN//ksV+4L67QZGFybWY3vD7TF70jbZq0o2EyGqYdLqQdLSSjhWS4kIyG6WSYph2mc+RM1dFwIaPRKG1nLN11F6W7bFWa3njSHDWt2rZphnNZfv9NmXjk2+k99UTSLm3bZ46N+dgXvpR3X/RAvvq+DzhfFQAAAABeAZY8sZq2TXfuUCb23JeFszbn8JpLk04v7dOPnzoSSNs0SZoMR0lGbdrRKGmbtE0vzfh4uqvPTXf5qjTdseNE1UH6j9+d8d33pDs4+CqKqkmu+WfZekky9zceWgUAAAAArxRLD6tJmoVBuk/tyfIHv5W26WWw5qKk203bLJ63uphBF2Np0xz5vWmSppNOr5/uyvXpLF+dptM9flR94t4s//4t6c48mWbh8MnY8hnjup/fkk3Zm20eWgUAAAAArxgnJawmSWdhNmMHHs7yH96apl3I4bMvS9vpJWmenl1NeySaLk6ydpKxiXRXrktnYkWa7vO30gzn0n/87iz//i0Z2/9QmtHcydruK9xH8wefX5HpuYuz9XVrcuiOP3xJD80CAAAAAF4eJy2spm3TjOYzdmhXpr5/S3oHd2Z20z/MsD+VUbd71CBqm7bTSdN00lm+Op3+ssVJ1WPW6czuz+RD2zK++zvpzjyxGFVfRUcAnH35T+SaJIfu/bN84l9+5SU9NAsAAAAAeHks/eFVx9H2xjPsr8z8io0ZnPPazE1tyrC/PG06GSVJp7s4pTo2maazeDZA0w7TDOfSmd2Xsf0PZvyxu9I7uDPdwcFX3df/AQAAAOCVbsvVV+WySy/OeeduyupVq9Lvj2Vubj779u/Pw488mvvu/2523HnX6d7mKXNKwuriyosPphpOrs78io2Zm9qU+akNGU6uyWjqnGTirDRNsxhTB4fSnXkiYwceTm//gxk7uDPd2b1pRvOvqilVAAAAAODMcPKOAjhW26Zp59Ob2Z3ezO5M5s5T9lEAAAAAAC+nzuneAAAAAADAmUZYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoag4P5trTvQkAAAAAgDOJiVUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgKLecGH+dO8BAAAAAOCMYmIVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIqEVQAAAACAImEVAAAAAKBIWAUAAAAAKBJWAQAAAACKhFUAAAAAgCJhFQAAAACgSFgFAAAAACgSVgEAAAAAioRVAAAAAIAiYRUAAAAAoEhYBQAAAAAoElYBAAAAAIp6p3sDvPLt/uYf5zO37knOfks+8sE3Z92Tf5XPfO627E6iv5VmAAAEvklEQVRy5Xv/TX7htad7hwAAAADw8hJWyd1f/a188Z48G06f8+qe3H3XnsW/Pvl4difHvP731NPx+Lj/J8/3THw+Yt3b3p+PvHXtqd0jAAAAAKeNowB4EWtz5VVHAuHZ618FUXVPbvncb+XXjkzkvhTHRtUk2X3rH+fXvnrfyd8eAAAAAK8IJlZ5Ueve+v789ltP9y5eDvfli7/xp7m78pYn/ypfPBJVn55SfWYC+J7v5O53X5YrT8VWAQAAADithFVe1ImPCjjq9Rxzz3POYn1X8uU/zd1Zm3d+8P1Zd+tR7zniOV+ff8H3viWPfO5I/LziXfntd1925N3PRtHnn/t6VDA9+j0vcFbsure9P+/c/cfP299xPfH4kcnWtdlyxeLer3zbW7LuntuyO/+/vftlaiMP4wD+3GtIZt9Cprdbga2ACRVoxA0KiTtXATLyTuBwyKpTaETLXEQtotlj8gJOsLOR6DuRzb9NCNkyLRP6+aidhSf/5Hee33eHcXsXkemgBQAAAHh1VAHwLMWnWgBZ9uN8xRH4wV/zm6CjKO5XvNbNZZz/PVq6vzjbiZ20usz/md2/m1x3YmcpyOzEQbe1NFPkeRWKTmY6cdw7a9SNWhRlddWOpD25bE3D56JY/j4AAAAAbD8bqzxLEWl86I03VNcega9vu/5+Fvtzf57MFl+HUezVtmLrsys2QgeDKsxNf1159D5J00hu+lFEGUUZEe25h3I9MrPR958Epz9F/ywAAAAAE4JVniV7Pws8s6wTkQ8jJuHlnORtZyF4XPXAp8fUZ6PdiZ12P67LKlB9E3GbR0S04qDbWf0i05lR3Oaj2N8r49/yiZlNPlvSishHEeW4EqAeribJ5tuvAAAAAGwPVQD8EAsB493VLFRND+PP3lkcp6vnlmYjIqIV+++rMPR+FMWkBqCdRtaOR7Qiezt+neLrcMOZb1SOqooBAAAAAF4rwSrPMj2CH6P4/GlyPdc3usK0l3T6IKnVnatrvamO75d5fKzed2mztSZJ0+qhWvdxPdhsZsndVZz2/ojTiy/jDdXJa8Ywrqt+2MFNv9bdCgAAAMBrowqAmbIf573+3I1OHPcO18/kV3GaL95KurubdZaumN3c+CFWg3xU1Q60Yid94tj9tA5gGIN8w5maaZBc5jEo38V++10cpP1xP+zNZZzezP53498BAAAAgK1jY5VnyY4OF8LDpHsSH/bWh5XJ3snC0f+ke7K2CuDR9+7uzrZN093Yf/JI/6wOYPOZ2ntmVQXBXIVA9ttylUF2dPbk7wAAAADA9vrl4eHhv5f+EPBNyi9xfjE+dp8dncWxY/cAAAAA/CA2VtlaukwBAAAAeCk6Vtkyo/h8cRnX5exOvY4AAAAAAL43G6tsNRUAAAAAALwEHasAAAAAAA3ZWAUAAAAAaEiwCgAAAADQkGAVAAAAAKAhwSoAAAAAQEOCVQAAAACAhgSrAAAAAAANCVYBAAAAABoSrAIAAAAANCRYBQAAAABoSLAKAAAAANCQYBUAAAAAoCHBKgAAAABAQ4JVAAAAAICGBKsAAAAAAA0JVgEAAAAAGhKsAgAAAAA0JFgFAAAAAGhIsAoAAAAA0JBgFQAAAACgof8BmeeM16YuD9YAAAAASUVORK5CYII\u003d",
+                "mime_type": "image/png",
+                "name": "Student can search books by category"
+              }
+            ],
             "result": {
-              "duration": 7727000000,
+              "duration": 8812000000,
               "status": "passed"
             },
             "match": {
@@ -31,45 +38,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 11318000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 2000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 9,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 3000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 618000000,
+              "duration": 7650000000,
               "status": "passed"
             },
             "before": [
@@ -83,7 +56,40 @@
                 }
               }
             ],
-            "line": 10,
+            "line": 5,
+            "name": "User is on the library login page",
+            "match": {
+              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 407000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
             "name": "User enters correct student \"student1Username\" and \"student1Password\"",
             "match": {
               "arguments": [
@@ -101,7 +107,6 @@
             "after": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -113,40 +118,7 @@
           },
           {
             "result": {
-              "duration": 160000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 2000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 11,
-            "name": "User clicks the sign-in button",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1218000000,
+              "duration": 128000000,
               "status": "passed"
             },
             "before": [
@@ -160,514 +132,7 @@
                 }
               }
             ],
-            "line": 12,
-            "name": "User sees the library homepage",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-26T01:10:00.154Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "User will login as student",
-        "description": "",
-        "id": "login;user-will-login-as-student;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 6778000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4788000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 3000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 9,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 694000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 10,
-            "name": "User enters correct student \"student2Username\" and \"student2Password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student2Username\"",
-                  "offset": 28
-                },
-                {
-                  "val": "\"student2Password\"",
-                  "offset": 51
-                }
-              ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 189000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 11,
-            "name": "User clicks the sign-in button",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 19000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 12,
-            "name": "User sees the library homepage",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-26T01:10:12.650Z",
-        "before": [
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "User will login as student",
-        "description": "",
-        "id": "login;user-will-login-as-student;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 6843000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 4844000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 9,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 656000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 10,
-            "name": "User enters correct student \"student3Username\" and \"student3Password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"student3Username\"",
-                  "offset": 28
-                },
-                {
-                  "val": "\"student3Password\"",
-                  "offset": 51
-                }
-              ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 11,
-            "name": "User clicks the sign-in button",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 11000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 12,
-            "name": "User sees the library homepage",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@login"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-26T01:10:25.226Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
-        ],
-        "line": 31,
-        "name": "User will login as librarian",
-        "description": "",
-        "id": "login;user-will-login-as-librarian;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 7410000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 5605000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 24,
-            "name": "User is on the library login page",
-            "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 696000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 25,
-            "name": "User enters correct librarian \"librarianUsername\" and \"LibrarianPassword\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"librarianUsername\"",
-                  "offset": 30
-                },
-                {
-                  "val": "\"LibrarianPassword\"",
-                  "offset": 54
-                }
-              ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectLibrarianAnd(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
-                }
-              }
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 168000000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
-                }
-              }
-            ],
-            "line": 26,
+            "line": 7,
             "name": "User clicks the sign-in button",
             "match": {
               "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
@@ -687,8 +152,9 @@
           },
           {
             "result": {
-              "duration": 17000000,
-              "status": "passed"
+              "error_message": "java.lang.NullPointerException\r\n\tat com.library.step_definitions.bookSearch_stepDefinitions.userSeesTheCategoriesBelow(bookSearch_stepDefinitions.java:26)\r\n\tat ✽.user sees the categories below(file:///C:/Users/akila/Desktop/All%20IntelliJ%20Projects/Library_group9/src/test/resources/features/bookSearch.feature:8)\r\n",
+              "duration": 21000000,
+              "status": "failed"
             },
             "before": [
               {
@@ -701,15 +167,15 @@
                 }
               }
             ],
-            "line": 27,
-            "name": "User sees the library homepage",
+            "line": 8,
+            "name": "user sees the categories below",
             "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.userSeesTheLibraryHomepage()"
+              "location": "com.library.step_definitions.bookSearch_stepDefinitions.userSeesTheCategoriesBelow(java.util.List\u003cjava.lang.String\u003e)"
             },
             "after": [
               {
                 "result": {
-                  "duration": 2000000,
+                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -717,24 +183,126 @@
                 }
               }
             ],
+            "rows": [
+              {
+                "cells": [
+                  "All"
+                ]
+              },
+              {
+                "cells": [
+                  "Action and Adventure"
+                ]
+              },
+              {
+                "cells": [
+                  "Classic"
+                ]
+              },
+              {
+                "cells": [
+                  "Comic and Graphic Novel"
+                ]
+              },
+              {
+                "cells": [
+                  "Crime and Detective"
+                ]
+              },
+              {
+                "cells": [
+                  "Drama"
+                ]
+              },
+              {
+                "cells": [
+                  "Fable"
+                ]
+              },
+              {
+                "cells": [
+                  "Fairy Tale"
+                ]
+              },
+              {
+                "cells": [
+                  "Fan-Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Fantasy"
+                ]
+              },
+              {
+                "cells": [
+                  "Historical Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Horror"
+                ]
+              },
+              {
+                "cells": [
+                  "Science Fiction"
+                ]
+              },
+              {
+                "cells": [
+                  "Biography/Autobiography"
+                ]
+              },
+              {
+                "cells": [
+                  "Humor"
+                ]
+              },
+              {
+                "cells": [
+                  "Romance"
+                ]
+              },
+              {
+                "cells": [
+                  "Short Story"
+                ]
+              },
+              {
+                "cells": [
+                  "Essay"
+                ]
+              },
+              {
+                "cells": [
+                  "Memoir"
+                ]
+              },
+              {
+                "cells": [
+                  "Poetry"
+                ]
+              }
+            ],
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@login"
+            "name": "@bookCategories"
           }
         ]
       }
     ],
-    "name": "Login",
-    "description": "  Lib-1000 As a student user, I should be able to see the student landing page\n  Lib-1003 As a librarian user, I should be able to see the librarian landing page",
-    "id": "login",
+    "name": "As a student, I should be able to search books with different categories",
+    "description": "",
+    "id": "as-a-student--i-should-be-able-to-search-books-with-different-categories",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/login.feature",
+    "uri": "file:src/test/resources/features/bookSearch.feature",
     "tags": [
       {
-        "name": "@login",
+        "name": "@bookCategories",
         "type": "Tag",
         "location": {
           "line": 1,

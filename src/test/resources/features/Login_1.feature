@@ -5,6 +5,7 @@ Feature: Login
 
   #Acceptance criteria Lib=1000
   #Student will login with valid username and password
+  #Librarian negative test
   Scenario Outline: User will login as student
     Given User is on the library login page
     When User enters correct student "<Username>" and "<Password>"
@@ -19,7 +20,6 @@ Feature: Login
 
 
   #Student negative test
-
   Scenario Outline: User will login as librarian
     Given User is on the library login page
     When User enters correct librarian "<Username>" and "<Password>"
@@ -28,7 +28,7 @@ Feature: Login
 
     Examples:
       | Username          | Password          |
-      | librarianUsername | LibrarianPassword |
+      | librarianUsername | librarianPassword |
 
 
 

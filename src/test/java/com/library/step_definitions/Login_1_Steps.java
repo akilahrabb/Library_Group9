@@ -9,7 +9,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class Login_stepDefinitions {
+public class Login_1_Steps {
 
     LibraryLoginPage libraryLoginPage = new LibraryLoginPage();
 

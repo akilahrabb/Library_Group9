@@ -1,0 +1,290 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6445000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 4000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "User is on the library login page",
+            "match": {
+              "location": "com.library.step_definitions.Login_1_Steps.user_is_on_the_library_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 363000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User enters correct librarian \"librarianUsername\" and \"librarianPassword\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"librarianUsername\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"librarianPassword\"",
+                  "offset": 54
+                }
+              ],
+              "location": "com.library.step_definitions.Login_1_Steps.userEntersCorrectLibrarianAnd(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 78000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User clicks the sign-in button",
+            "match": {
+              "location": "com.library.step_definitions.Login_1_Steps.user_clicks_the_sign_in_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-04T03:06:27.045Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "User should see User status dropdown",
+        "description": "",
+        "id": "as-a-librarian--i-should-be-able-to-verify-user-status;user-should-see-user-status-dropdown",
+        "after": [
+          {
+            "result": {
+              "duration": 5178000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1906000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User clicks User module",
+            "match": {
+              "location": "com.library.step_definitions.User_Status_10_Steps.userClicksUserModule()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User clicks the status dropdown button",
+            "match": {
+              "location": "com.library.step_definitions.User_Status_10_Steps.userClicksTheStatusDropdownButton()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runBeforeSteps()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "User should see the following options",
+            "match": {
+              "location": "com.library.step_definitions.User_Status_10_Steps.userShouldSeeTheFollowingOptions(java.util.List\u003cjava.lang.String\u003e)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "com.library.step_definitions.Hooks.runsAfterSteps()"
+                }
+              }
+            ],
+            "rows": [
+              {
+                "cells": [
+                  "ACTIVE"
+                ]
+              },
+              {
+                "cells": [
+                  "INACTIVE"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyStatus"
+          }
+        ]
+      }
+    ],
+    "name": "As a librarian, I should be able to verify user status",
+    "description": "",
+    "id": "as-a-librarian--i-should-be-able-to-verify-user-status",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/User_Status_10.feature",
+    "tags": [
+      {
+        "name": "@VerifyStatus",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

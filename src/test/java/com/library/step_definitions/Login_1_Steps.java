@@ -26,8 +26,8 @@ public class Login_1_Steps {
 
     @When("User enters correct librarian {string} and {string}")
     public void userEntersCorrectLibrarianAnd(String arg1, String arg2){
-        libraryLoginPage.inputUsername.sendKeys(CredentialReader.getProperty("librarianUsername"));
-        libraryLoginPage.inputPassword.sendKeys(CredentialReader.getProperty("librarianPassword"));
+        libraryLoginPage.inputUsername.sendKeys(CredentialReader.getProperty(arg1));
+        libraryLoginPage.inputPassword.sendKeys(CredentialReader.getProperty(arg2));
     }
 
     @When("User clicks the sign-in button")

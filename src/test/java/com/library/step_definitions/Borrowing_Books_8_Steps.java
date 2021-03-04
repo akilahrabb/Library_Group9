@@ -29,7 +29,7 @@ public class Borrowing_Books_8_Steps {
             System.out.println("Expected column name:" + expectedName);
             System.out.println("Actual column name: " + actualName[actualNameIndex]);
         }
-        //Assert.assertEquals(expectedName, actualName[actualNameIndex]);
+        Assert.assertEquals(expectedName, actualName[actualNameIndex]);
         //This assert statement seems to use the following row in the Example table, causing tests to fail
         //It would have returned a printed statement similar to the one in the if statement above
     }

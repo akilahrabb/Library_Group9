@@ -3,39 +3,15 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2021-02-26T17:45:24.045Z",
-        "before": [
-          {
-            "result": {
-              "duration": 7000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.setUpScenario()"
-            }
-          }
-        ],
         "line": 4,
-        "name": "Student can search books by category",
+        "name": "",
         "description": "",
-        "id": "as-a-student--i-should-be-able-to-search-books-with-different-categories;student-can-search-books-by-category",
-        "after": [
-          {
-            "result": {
-              "duration": 8593000000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 13262000000,
+              "duration": 7830000000,
               "status": "passed"
             },
             "before": [
@@ -52,7 +28,7 @@
             "line": 5,
             "name": "User is on the library login page",
             "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_is_on_the_library_login_page()"
+              "location": "com.library.step_definitions.Login_1_Steps.user_is_on_the_library_login_page()"
             },
             "after": [
               {
@@ -69,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 1244000000,
+              "duration": 428000000,
               "status": "passed"
             },
             "before": [
@@ -96,7 +72,7 @@
                   "offset": 51
                 }
               ],
-              "location": "com.library.step_definitions.Login_stepDefinitions.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
+              "location": "com.library.step_definitions.Login_1_Steps.userEntersCorrectStudentAnd(java.lang.String,java.lang.String)"
             },
             "after": [
               {
@@ -113,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 314000000,
+              "duration": 134000000,
               "status": "passed"
             },
             "before": [
@@ -130,12 +106,11 @@
             "line": 7,
             "name": "User clicks the sign-in button",
             "match": {
-              "location": "com.library.step_definitions.Login_stepDefinitions.user_clicks_the_sign_in_button()"
+              "location": "com.library.step_definitions.Login_1_Steps.user_clicks_the_sign_in_button()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 3000000,
                   "status": "passed"
                 },
                 "match": {
@@ -144,16 +119,48 @@
               }
             ],
             "keyword": "And "
-          },
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-03-04T03:15:23.026Z",
+        "before": [
           {
             "result": {
-              "duration": 19247000000,
+              "duration": 7000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.setUpScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Student can search books by category",
+        "description": "",
+        "id": "as-a-student--i-should-be-able-to-search-books-with-different-categories;student-can-search-books-by-category",
+        "after": [
+          {
+            "result": {
+              "duration": 6160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.library.step_definitions.Hooks.tearDownScenario(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1908000000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 1000000,
                   "status": "passed"
                 },
                 "match": {
@@ -161,10 +168,10 @@
                 }
               }
             ],
-            "line": 8,
-            "name": "user sees the categories below",
+            "line": 10,
+            "name": "user sees the below categories",
             "match": {
-              "location": "com.library.step_definitions.bookSearch_stepDefinitions.userSeesTheCategoriesBelow(java.util.List\u003cjava.lang.String\u003e)"
+              "location": "com.library.step_definitions.Book_Search_7_Steps.userSeesTheBelowCategories(java.util.List\u003cjava.lang.String\u003e)"
             },
             "after": [
               {
@@ -180,7 +187,7 @@
             "rows": [
               {
                 "cells": [
-                  "All"
+                  "ALL"
                 ]
               },
               {
@@ -298,7 +305,7 @@
     "description": "",
     "id": "as-a-student--i-should-be-able-to-search-books-with-different-categories",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/features/bookSearch.feature",
+    "uri": "file:src/test/resources/features/Book_Search_7.feature",
     "tags": [
       {
         "name": "@bookCategories",

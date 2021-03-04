@@ -7,8 +7,8 @@ Feature: As a student, I should be able to search books with different categorie
     And User clicks the sign-in button
 
   Scenario: Student can search books by category
-    Then user sees the categories below
-      | All                     |
+    Then user sees the below categories
+      | ALL                     |
       | Action and Adventure    |
       | Anthology               |
       | Classic                 |

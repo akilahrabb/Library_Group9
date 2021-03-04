@@ -1,12 +1,14 @@
 @bookCategories
 Feature: As a student, I should be able to search books with different categories
 
-  Scenario: Student can search books by category
+  Background:
     Given User is on the library login page
     When User enters correct student "student1Username" and "student1Password"
     And User clicks the sign-in button
-    Then user sees the categories below
-      | All                     |
+
+  Scenario: Student can search books by category
+    Then user sees the below categories
+      | ALL                     |
       | Action and Adventure    |
       | Anthology               |
       | Classic                 |
@@ -27,6 +29,3 @@ Feature: As a student, I should be able to search books with different categorie
       | Essay                   |
       | Memoir                  |
       | Poetry                  |
-
-
-

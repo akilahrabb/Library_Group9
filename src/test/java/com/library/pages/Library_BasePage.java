@@ -19,9 +19,6 @@ public class Library_BasePage {
         @FindBy(xpath = "//select[@id='book_categories']")
         public WebElement BookCategories;
 
-        @FindBy(xpath = "//table[@id='tbl_books']//tr[1]/td[5]")
-        public WebElement FirstRowCategory;
-
     @FindBy(xpath = "//i[@class='fa fa-book-reader']")
     public WebElement BorrowingBooks;
 

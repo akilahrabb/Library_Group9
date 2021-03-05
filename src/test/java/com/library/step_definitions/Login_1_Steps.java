@@ -4,7 +4,7 @@ import com.library.pages.LibraryLoginPage;
 import com.library.utilities.ConfigurationReader;
 import com.library.utilities.CredentialReader;
 import com.library.utilities.Driver;
-import io.cucumber.java.en.Given;
+import io.cucumber.java.ru.Дано;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -13,7 +13,7 @@ public class Login_1_Steps {
 
     LibraryLoginPage libraryLoginPage = new LibraryLoginPage();
 
-    @Given("User is on the library login page")
+    @Дано("User is on the library login page")
     public void user_is_on_the_library_login_page() {
         Driver.getDriver().get(ConfigurationReader.getProperty("Url"));
     }

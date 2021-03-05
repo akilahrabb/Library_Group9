@@ -1,8 +1,7 @@
+@UserStory2
+
 Feature: User should be able to log out of library app.
 
-
-
-  @UserStory2
   Scenario Outline: User should be able to log out of app by using log out button
     Given : User is logged into homepage in library app.
     When :User moves cursor to user name and select to see drop menu

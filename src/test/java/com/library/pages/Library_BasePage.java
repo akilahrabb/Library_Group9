@@ -64,4 +64,32 @@ public class Library_BasePage {
     @FindBy(xpath="//th")
     public List<WebElement> tableHeaders;
 
+    @FindBy(xpath = "//*[@id=\"users\"]/div[1]/div[1]/span/a")
+    public WebElement addUser;
+
+        @FindBy (xpath = "/html/body/main/section[2]/div[2]/div/div/div/div/form/div[1]/div/div[1]/div/div/input")
+        public WebElement fullName;
+
+        @FindBy(xpath = "//*[@id=\"add_user_form\"]/div[1]/div/div[2]/div[1]/div/input")
+        public WebElement passWord;
+
+        @FindBy(xpath = "//*[@id=\"add_user_form\"]/div[1]/div/div[2]/div[2]/div/input")
+        public WebElement email;
+
+        @FindBy(xpath = "//*[@id=\"add_user_form\"]/div[2]/button[2]")
+        public WebElement saveChanges;
+
+        @FindBy(xpath = "//*[@id=\"tbl_users\"]/tbody/tr[1]/td[1]/a")
+        public WebElement editUser;
+
+        @FindBy(xpath="//*[@id=\"edit_user_form\"]/div[2]/button[1]")
+        public WebElement closeButton;
+
+
+
+
+
+
+
+
 }
